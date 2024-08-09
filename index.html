@@ -5,11 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #demo{
+            width: 100%;
+            height: 100vh;
+
+        }
+    </style>
 </head>
+
 
 <body>
 
-    <button onclick="console.log('hello Mr. Shoaib')">hello button </button>
+    <!-- <button onclick="console.log('hello Mr. Shoaib')">hello button </button>
+
+    <button onclick="(function(){console.log('hello world')})()">IIFE</button> -->
+
+    <div id="demo"></div>
+    
+
 
     <script>
         // alert("hello world")
@@ -116,21 +134,36 @@
 
         // (marks >=90 && marks <= 100) ? console.log("Grade A") : marks >= 80 ? console.log("Grade B") : console.log("Fail")
 
-        var x = 10;
+        // var x = 10;
 
-        switch (x){
-            case 10:
-                console.log("x is 10")
-                break;
-            case 11:
-                console.log("x is 11")
-                break;
-            case 12:
-                console.log("x is 12")
-                break;
-            default:
-                console.log("x niether 10 nor 11 nor 12")
-        }
+        // switch (x){
+        //     case 10:
+        //         console.log("x is 10")
+        //         break;
+        //     case 11:
+        //         console.log("x is 11")
+        //         break;
+        //     case 12:
+        //         console.log("x is 12")
+        //         break;
+        //     default:
+        //         console.log("x niether 10 nor 11 nor 12")
+        // }
+
+
+        // var height = prompt("Enter your Height")
+        // var age = prompt("Enter your Age")
+        // var education = prompt("Enter your Education")
+
+        //     (height >= 5 && age >= 18) ? console.log("Eligible to police training...") :
+        //      (age >= 18 && education >= 14) ? console.log("Eligible to police training...") :
+        //       (height >= 5 && education >= 14) ? console.log("Eligible to police training...") : 
+        //       console.log("I'm really sorry")
+
+
+
+
+
 
 
 
@@ -142,6 +175,8 @@
 
 
     </script>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
