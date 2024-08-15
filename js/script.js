@@ -184,15 +184,163 @@
 // console.log(obj.fullname(34) )
 // console.log(Object.values(obj))
 
-var a = 10;
-var b = a;
-console.log(a, b)
-b = 20;
-console.log(a,b)
+// var a = 10;
+// var b = a;
+// console.log(a, b)
+// b = 20;
+// console.log(a,b)
 
-var obj1 = {name:"shoaib", age:25};
-var obj2 = obj1;
-console.log(obj1,obj2)
+// var obj1 = {name:"shoaib", age:25};
+// var obj2 = obj1;
+// console.log(obj1,obj2)
 
-obj2.name = "Raza";
-console.log(obj1,obj2)
+// obj2.name = "Raza";
+// console.log(obj1,obj2)
+
+
+// var a = Math.round(Math.random() * 10)
+// console.log(a)
+// var b = parseInt(prompt("Enter your no."))
+// console.log(b)
+// if (a === b) {
+//     var res = document.getElementById("demo")
+//     res.style.backgroundColor = "black";
+// } else {
+//     var res = document.getElementById("demo")
+//     res.style.backgroundColor = "green"
+//     res.innerHTML = "Hello man you passed it";
+// }
+
+        //  Destructuring objects
+
+        // var obj ={
+        //     name:"Shoaib",
+        //     age:25,
+        //     classb:"BSCS"
+        // }
+
+        // console.log(obj.name,obj.age,obj.classb);
+        // var {name, age,classb} = obj
+        // console.log(name,age,classb);
+
+
+
+
+        //  Date objects
+
+        // var d = new Date("2022")
+        // console.log(d)
+        // console.log(d.getDate());
+        // console.log(d.getDay())
+        // console.log(d.getFullYear())
+        // console.log(d.getMonth())
+
+        //  exception handling
+
+        // var x;
+        // try{
+        //     console.log(x)
+        // }catch(err){
+        //     console.log("Error", err)
+        // }finally{
+        //     console.log("at ease")
+        // }
+
+        //  debugger
+
+        // console.log("hello world")
+        // debugger;
+        // console.log("hello class")
+
+
+        //  setTimeout/ setInterval
+
+        // setTimeout( ()=>{
+        //     console.log("C")
+        // }, 0);
+        // console.log("A")
+        // console.log("B")
+        // setInterval( ()=> {
+        //     console.log("A")
+        // },5000)
+
+
+        // callback method 
+
+        // function m1(){
+        //     console.log("call function m1")
+        // }
+        // function m2(a){
+        //     console.log("call function m2")
+        //     a();
+        // }
+        // m2(m1);
+
+        // promise 
+
+        // var p = new Promise((resolve, reject)=>{
+        //     setTimeout(()=>{
+        //         console.log("hello world")
+        //         // resolve(true)
+        //         reject("err")
+        //     },0)
+        // })
+
+        // p.then( value => {
+        //     console.log(value)
+        // })
+
+        // p.catch( err=> {
+        //     console.log(err)
+        // })
+
+        // console.log(p)
+        
+
+        // async and await
+
+    //     fetch('https://jsonplaceholder.typicode.com/todos/1')
+    //   .then(response => response.json())
+    //   .then(json => console.log(json))
+
+
+//    async function g1(){
+//         await  fetch('https://jsonplaceholder.typicode.com/todos/jugnu')
+//            .then(response => response.json())
+//            .then(json => console.log(json))
+//            .catch( err => {
+//             console.log(err)
+//            })
+//     }
+//     g1();
+
+
+        // class 
+
+        // class Animal{
+        //     constructor(name,age){
+        //         this.name = name;
+        //         this.age = age;
+        //     }
+
+            // setData(name,age){
+            //     this.name = name;
+            //     this.age = age;
+            // }
+
+        //     getData(){
+        //         console.log(this.name, this.age);
+        //     }
+        // }
+        // var obj = new Animal();
+        // obj.setData("Shoaib",25);
+        // obj.getData();
+
+        // var obj2 = new Animal()
+        // obj2.setData("Raza",26);
+        // obj2.getData();
+        
+        // var obj1 = new Animal("Shoaib",25);
+        // var obj2 = new Animal("Raza",26);
+        // obj1.getData();
+        // obj2.getData();
